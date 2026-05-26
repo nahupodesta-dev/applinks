@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Links personales de Nahu Podestá, redes sociales y playlists de Spotify.">
+    <meta name="theme-color" content="#0b0f19">
+
+    <meta property="og:title" content="Links de Nahu Podestá">
+    <meta property="og:description" content="Redes sociales, contenido y playlists de Nahu Podestá en un solo lugar.">
+    <meta property="og:type" content="website">
+
+    <title>Links de Nahu Podestá</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="profile-card" aria-labelledby="profile-name">
+        <div class="avatar" aria-hidden="true">N</div>
+        <p class="eyebrow">Linktree personal</p>
+        <h1 id="profile-name">Nahu Podestá</h1>
+        <p class="bio">
+          Redes, contenido y playlists favoritas en un solo lugar.
+        </p>
+      </section>
+
+      <section class="link-section" aria-labelledby="social-title">
+        <div class="section-heading">
+          <span>Redes</span>
+          <h2 id="social-title">Encontrame en</h2>
+        </div>
+        <div id="social-links" class="link-list" aria-live="polite"></div>
+      </section>
+
+      <section class="link-section" aria-labelledby="spotify-title">
+        <div class="section-heading">
+          <span>Música</span>
+          <h2 id="spotify-title">Playlists de Spotify</h2>
+        </div>
+        <div id="spotify-links" class="link-list" aria-live="polite"></div>
+      </section>
+
+      <noscript>
+        <p class="noscript-message">
+          Activá JavaScript para ver los links configurados.
+        </p>
+      </noscript>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
