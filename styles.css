@@ -1,14 +1,14 @@
 :root {
   color-scheme: dark;
-  --bg: #11100e;
-  --bg-soft: #191713;
-  --card: rgba(28, 26, 22, 0.78);
-  --card-hover: rgba(38, 35, 30, 0.88);
-  --card-border: rgba(236, 229, 216, 0.1);
-  --text: #f3eee4;
-  --muted: #a7a094;
-  --accent: #c8b99a;
-  --accent-strong: #e3d6bd;
+  --bg: #14110d;
+  --bg-soft: #1f1a14;
+  --card: rgba(32, 27, 20, 0.78);
+  --card-hover: rgba(43, 36, 27, 0.9);
+  --card-border: rgba(239, 218, 188, 0.13);
+  --text: #f5efe6;
+  --muted: #b3a696;
+  --accent: #d8bf98;
+  --accent-strong: #efdabc;
   --shadow: 0 20px 60px rgba(0, 0, 0, 0.24);
   --radius-lg: 28px;
   --radius-md: 20px;
@@ -30,7 +30,7 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    radial-gradient(circle at top, rgba(200, 185, 154, 0.1), transparent 34rem),
+    radial-gradient(circle at top, rgba(216, 191, 152, 0.12), transparent 34rem),
     linear-gradient(180deg, rgba(255, 255, 255, 0.025), transparent 18rem),
     var(--bg);
 }
@@ -43,7 +43,7 @@ body::before {
   content: "";
   background:
     radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.035), transparent 18rem),
-    radial-gradient(circle at 80% 90%, rgba(200, 185, 154, 0.06), transparent 22rem);
+    radial-gradient(circle at 80% 90%, rgba(216, 191, 152, 0.07), transparent 22rem);
 }
 
 a {
@@ -80,7 +80,7 @@ a {
   letter-spacing: -0.08em;
   background:
     linear-gradient(var(--bg-soft), var(--bg-soft)) padding-box,
-    linear-gradient(145deg, rgba(227, 214, 189, 0.85), rgba(122, 132, 111, 0.55)) border-box;
+    linear-gradient(145deg, rgba(239, 218, 188, 0.9), rgba(158, 128, 92, 0.52)) border-box;
   border: 2px solid transparent;
   border-radius: 50%;
 }
@@ -157,12 +157,12 @@ h1 {
 .link-card:hover,
 .link-card:focus-visible {
   background: var(--card-hover);
-  border-color: rgba(227, 214, 189, 0.28);
+  border-color: rgba(239, 218, 188, 0.32);
   transform: translateY(-2px);
 }
 
 .link-card:focus-visible {
-  outline: 3px solid rgba(200, 185, 154, 0.28);
+  outline: 3px solid rgba(216, 191, 152, 0.28);
   outline-offset: 3px;
 }
 
@@ -175,8 +175,8 @@ h1 {
   font-size: 0.76rem;
   font-weight: 900;
   letter-spacing: -0.04em;
-  background: rgba(227, 214, 189, 0.08);
-  border: 1px solid rgba(227, 214, 189, 0.14);
+  background: rgba(216, 191, 152, 0.09);
+  border: 1px solid rgba(239, 218, 188, 0.16);
   border-radius: 16px;
 }
 
